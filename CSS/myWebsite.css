@@ -1,0 +1,37 @@
+
+
+img {
+  width: 100%;
+}
+
+section {
+    background-image: url("../resource/tweed2X.png");
+    font-size: 20px;
+    color: #F8F8FF;
+}
+
+section span {
+  color: #FFD700;
+}
+
+.thumbnail {
+  min-height: 450px;
+
+}
+
+.row {
+  margin-right: 0px;
+  background-image: url("../resource/tweed2X.png");
+}
+
+footer {
+  font-family: sans-serif;
+  font-style: italic;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+
+a.content:hover {
+  text-decoration: underline;
+}

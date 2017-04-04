@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>About this website</title>
+  <link rel="stylesheet" href="CSS/about.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/animation.js"></script>
+</head>
+<body>
+
+  <h1>About this website</h1>
+
+  <div id="div1" style="opacity:0">All the contents, images of this web site are from the internet.</div>
+  <br>
+  <div id="div2" style="opacity:0">This website is just a Front-end project not for business.</div>
+
+<!--
+  <div id="div1">All the content, images of this web site are from the internet.</div>
+  <div id="div2">This website is just a Front-end project not for business.</div>
+-->
+  <footer>MA's website</footer>
+
+  <script>
+  //show the message
+  $(function(){
+    $("h1").click(function(){
+      $("#div1").fadeTo("slow", 1);
+      $("#div2").fadeTo("slow", 1);
+    });
+  });
+  </script>
+</body>
+</html>
